@@ -1,0 +1,18 @@
+CRITICAL - 2020-10-26 14:29:36 --> Invalid file: BDG/CopaOro.php
+#0 C:\xampp\htdocs\plantilla\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('BDG/CopaOro.php')
+#1 C:\xampp\htdocs\plantilla\system\Common.php(1119): CodeIgniter\View\View->render('BDG/CopaOro', Array, true)
+#2 C:\xampp\htdocs\plantilla\app\Controllers\BDGController.php(39): view('BDG/CopaOro')
+#3 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(918): App\Controllers\BDGController->CopaOro()
+#4 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BDGController))
+#5 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\plantilla\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-26 14:30:42 --> Invalid file: BDG/BDGLeones.php
+#0 C:\xampp\htdocs\plantilla\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('BDG/BDGLeones.p...')
+#1 C:\xampp\htdocs\plantilla\system\Common.php(1119): CodeIgniter\View\View->render('BDG/BDGLeones', Array, true)
+#2 C:\xampp\htdocs\plantilla\app\Controllers\BDGController.php(49): view('BDG/BDGLeones')
+#3 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(918): App\Controllers\BDGController->BDGLeones()
+#4 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BDGController))
+#5 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\plantilla\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

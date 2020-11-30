@@ -1,0 +1,25 @@
+CRITICAL - 2020-11-30 11:13:24 --> Undefined variable: Nombre
+#0 C:\xampp\htdocs\crudcode\app\Models\CrudModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\crudcode\app\Controllers\Crud.php(48): App\Models\CrudModel->obtenerNombre(Array)
+#2 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(918): App\Controllers\Crud->obtenerNombre('1')
+#3 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#4 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\crudcode\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-30 11:14:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\crudcode\app\Controllers\Crud.php(48): App\Models\CrudModel->obtenerNombre(Array)
+#1 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(918): App\Controllers\Crud->obtenerNombre('1')
+#2 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#3 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crudcode\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-30 12:31:37 --> Undefined variable: data
+#0 C:\xampp\htdocs\crudcode\app\Controllers\Crud.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(918): App\Controllers\Crud->actualizar()
+#2 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#3 C:\xampp\htdocs\crudcode\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crudcode\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-30 14:06:53 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
